@@ -68,8 +68,7 @@ header {
   margin-top: 8px;
 }
 
-.filtros select,
-.filtros input {
+.filtros select {
   flex: 1;
   padding: 6px;
   border: 1px solid #2e2e2e;
@@ -110,9 +109,35 @@ header {
   background: #2e2e2e;
 }
 
-/* BOTON VOLVER - quitado */
+#tituloResultados {
+  color: #c9a84c;
+  font-weight: bold;
+  font-size: 1.2em;
+}
 
-/* GRID PELICULAS */
+#btnVolver {
+  padding: 10px 15px;
+  border: none;
+  background: #c9a84c;
+  color: #0a0a0a;
+  cursor: pointer;
+}
+
+.contenedor-volver {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#btnCargarMas {
+  padding: 10px 15px;
+  border: none;
+  background: #c9a84c;
+  color: #0a0a0a;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
 .grid-peliculas {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
